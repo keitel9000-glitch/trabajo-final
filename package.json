@@ -1,0 +1,31 @@
+{
+  "name": "trabajo-final-spa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SPA en español con Vite + React + Tailwind y módulo de IA de emociones (TensorFlow.js)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "lint": "eslint . --ext .js,.jsx",
+    "format": "prettier --write .",
+    "server": "node server/proxy.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1",
+    "@tensorflow/tfjs": "^4.12.0",
+    "intersection-observer": "^0.12.0"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "tailwindcss": "^3.4.7",
+    "postcss": "^8.4.24",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.48.0",
+    "eslint-plugin-react": "^7.34.0",
+    "prettier": "^2.8.8"
+  }
+}

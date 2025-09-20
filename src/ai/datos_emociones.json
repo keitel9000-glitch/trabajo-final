@@ -1,0 +1,12 @@
+[
+  {"texto":"Estoy muy feliz y contento","etiqueta":"alegría"},
+  {"texto":"Me siento triste y melancólico","etiqueta":"tristeza"},
+  {"texto":"Estoy enfadado por lo que pasó","etiqueta":"enojo"},
+  {"texto":"Tengo miedo de lo que viene","etiqueta":"miedo"},
+  {"texto":"Qué sorpresa tan agradable","etiqueta":"sorpresa"},
+  {"texto":"Te quiero con todo mi corazón","etiqueta":"amor"},
+  {"texto":"No me interesa, es neutral","etiqueta":"neutral"},
+  {"texto":"Estoy extremadamente feliz por ti","etiqueta":"alegría"},
+  {"texto":"Siento una profunda tristeza","etiqueta":"tristeza"},
+  {"texto":"Me enfada ver esa injusticia","etiqueta":"enojo"}
+]
