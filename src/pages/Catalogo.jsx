@@ -55,7 +55,7 @@ export default function Catalogo() {
 
     fetchData()
     return () => { activo = false; if (abortRef.current) abortRef.current.abort() }
-  }, [page, query, filtros.episodio])
+  }, [page, query, filtros.episodio, filtros.soloFavoritos])
 
   return (
     <div>
